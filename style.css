@@ -339,7 +339,7 @@ body {
 
   .logo {
     color: #025175;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 600;
     background-color: rgb(51, 196, 111);
     padding: 4px;
@@ -437,14 +437,14 @@ body {
     left: 15vw;
     
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 18px;
     width: 70%;
     height: 20%;
     
   }
 
   .hello {
-    top: 46vh;
+    top: 50vh;
     margin: 0 auto;
     color: beige;
     font-size: 15px;
@@ -457,9 +457,8 @@ body {
     position: absolute;
     z-index: 7;
     width: 100%;
-    height: 15%;
+    height: 3vh;
   
-    bottom: 0;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -482,6 +481,7 @@ body {
 
   .menu-link {
     text-decoration: none;
+    height: 3vh;
   }
 
   .menu:hover {
@@ -529,7 +529,7 @@ body {
 
   .bottom-menu {
     position: absolute;
-    top: 60%;
+    top: 80%;
     width: 100%;
     height: 40%;
     z-index: 6;
