@@ -500,7 +500,7 @@ body {
     position: relative;
     left: 0;
     border-radius: 3px 3px 0 0;
-    opacity: 0.7;
+
   }
 
   .menu-pic:hover {
@@ -520,7 +520,7 @@ body {
   width: 30px;
   height: 40px;
   border-radius: 15%;
-  margin-top: 7vh;
+  margin-top: 10vh;
 
 }
   .code {
@@ -529,7 +529,7 @@ body {
 
   .bottom-menu {
     position: absolute;
-    top: 80%;
+    top: 76%;
     width: 100%;
     height: 40%;
     z-index: 6;
