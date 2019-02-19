@@ -15,8 +15,8 @@ body {
     height: 100%;
     position: absolute;
     z-index: 3;
-    background-image:url(images/back-2.jpg);
-    background-repeat:repeat;
+    background-image: url(images/back-2.jpg);
+    background-repeat: repeat;
     background-size: contain;
   }
 
@@ -187,23 +187,25 @@ body {
     font-family: "EB Garamond", serif;
     font-family: "Handlee", cursive;
   }
+
   .foto1 {
     width: 45px;
     height: 60px;
     border-radius: 15%;
     margin-top: 4vh;
-  
+
   }
+
   .bottom-menu {
     position: absolute;
+    top: 67%;
     z-index: 7;
     width: 100%;
     height: 15%;
-    top: auto;
-    bottom: 0;
     display: flex;
     justify-content: center;
     flex-direction: row;
+
   }
 
   .menu {
@@ -261,26 +263,17 @@ body {
     color: rgb(51, 196, 111);
   }
 
-  .bottom-menu {
-    position: absolute;
-    top: 60%;
-    width: 100%;
-    height: 40%;
-    z-index: 6;
-  }
 }
 
 @media screen and (max-width: 751px) {
-
- 
 
   .picture-1 {
     width: 100%;
     height: 100%;
     position: absolute;
     z-index: 3;
-    background-image:url(images/back-2.jpg);
-    background-repeat:repeat;
+    background-image: url(images/back-2.jpg);
+    background-repeat: repeat;
     background-size: contain;
   }
 
@@ -435,12 +428,12 @@ body {
   .writing {
     top: 12vh;
     left: 15vw;
-    
+
     color: rgb(255, 255, 255);
     font-size: 18px;
     width: 70%;
     height: 20%;
-    
+
   }
 
   .hello {
@@ -458,11 +451,12 @@ body {
     z-index: 7;
     width: 100%;
     height: 3vh;
-  
+    top: 76%;
     display: flex;
     justify-content: center;
     flex-direction: row;
   }
+
 
   .menu {
     height: 60px;
@@ -474,7 +468,7 @@ body {
     box-shadow: 7px 7px 9px 0px rgb(19, 56, 33);
     text-align: center;
     font-size: 22px;
-    
+
     color: rgb(255, 255, 255);
     border-radius: 3px;
   }
@@ -490,8 +484,6 @@ body {
     transition: 700ms;
     position: relative;
     top: 1px;
-    
-    
   }
 
   .menu-pic {
@@ -516,23 +508,16 @@ body {
     border-radius: 0 0 3px 3px;
     font-weight: 600;
   }
-.foto1 {
-  width: 30px;
-  height: 40px;
-  border-radius: 15%;
-  margin-top: 10vh;
 
-}
+  .foto1 {
+    width: 30px;
+    height: 40px;
+    border-radius: 15%;
+    margin-top: 10vh;
+
+  }
+
   .code {
     color: rgb(51, 196, 111);
   }
-
-  .bottom-menu {
-    position: absolute;
-    top: 76%;
-    width: 100%;
-    height: 40%;
-    z-index: 6;
-  }
-
 }
