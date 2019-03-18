@@ -172,6 +172,7 @@ body {
     height: 20%;
   }
 
+
   .hello {
     top: 48%;
     margin: 0 auto;
@@ -409,8 +410,9 @@ ________________________________________________________________________________
     height: 40%;
     background-color: rgb(51, 196, 111);
     text-align: center;
-    
+
   }
+
   #about p {
     padding: 10px;
   }
@@ -420,7 +422,7 @@ ________________________________________________________________________________
     height: 29%;
     background-color: rgba(0, 134, 179, 1);
     text-align: center;
-   
+
 
   }
 
@@ -434,10 +436,12 @@ ________________________________________________________________________________
     font-size: 50px;
     margin: 10px;
   }
+
   #contact a {
     color: black;
     transition: 600ms;
   }
+
   #contact a:hover {
     color: white;
     transition: 600ms;
@@ -521,19 +525,18 @@ ________________________________________________________________________________
     text-align: center;
     z-index: 5;
     font-size: 40px;
-    
   }
 
   .logo {
     color: #025175;
-    font-size: 20px;
+    font-size: 25px;
     ;
     font-weight: 600;
     background-color: rgb(51, 196, 111);
     padding: 4px;
     border-radius: 2px;
     margin-top: 5px;
-    width: 50%;
+    width: 80%;
 
     animation: color-change 20s infinite;
     -webkit-animation: color-change 20s infinite;
@@ -623,7 +626,7 @@ ________________________________________________________________________________
 
   .writing {
     top: 12vh;
-    left: 15vw;
+    left: 10vw;
 
     color: rgb(255, 255, 255);
     font-size: 25px;
@@ -633,7 +636,7 @@ ________________________________________________________________________________
   }
 
   .hello {
-    top: 52vh;
+    top: 56vh;
     margin: 0 auto;
     color: beige;
     font-size: 25px;
@@ -647,7 +650,7 @@ ________________________________________________________________________________
     z-index: 7;
     width: 100%;
     height: 3vh;
-    top: 76%;
+    top: 78%;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -655,10 +658,11 @@ ________________________________________________________________________________
 
 
   .menu {
-    height: 70px;
+    height: 55px;
+    width: 70px;
     transition: 650ms;
-    margin: 2vw;
-    width: 80px;
+    margin: 1vw;
+
     -webkit-box-shadow: 7px 7px 9px 0px rgb(19, 56, 33);
     -moz-box-shadow: 7px 7px 9px 0px rgb(19, 56, 33);
     box-shadow: 7px 7px 9px 0px rgb(19, 56, 33);
@@ -711,7 +715,7 @@ ________________________________________________________________________________
     width: 42px;
     height: 56px;
     border-radius: 35%;
-    margin-top: 9vh;
+    margin-top: 7vh;
 
   }
 
@@ -836,7 +840,7 @@ ________________________________________________________________________________
     height: 100%;
     position: relative;
     text-align: center;
-    padding-top: 140%;
+    padding-top: 172%;
     font-size: xx-large;
     font-weight: 900;
     opacity: 0.9;
@@ -871,22 +875,24 @@ ________________________________________________________________________________
   #top {
     position: fixed;
     left: 5px;
-    bottom: 23px;;
+    bottom: 23px;
+    ;
   }
 
   /*fourth page starts here_________________________________*/
   #about {
     width: 100%;
-    height: 40%;
+    height: 50%;
     background-color: rgb(51, 196, 111);
     text-align: center;
-    
-    
-    
-    
+
+
+
+
   }
+
   #about p {
-    padding: 10px;
+    padding: 0 20px;
   }
 
   #contact {
@@ -894,7 +900,7 @@ ________________________________________________________________________________
     height: 29%;
     background-color: rgba(0, 134, 179, 1);
     text-align: center;
-   
+
 
   }
 
@@ -904,14 +910,20 @@ ________________________________________________________________________________
 
   }
 
+  .lastTwoTitle {
+    padding-top: 30px;
+  }
+
   .fas {
     font-size: 50px;
     margin: 10px;
   }
+
   #contact a {
     color: black;
     transition: 600ms;
   }
+
   #contact a:hover {
     color: white;
     transition: 600ms;
@@ -919,13 +931,13 @@ ________________________________________________________________________________
 
   #footer {
     width: 100%;
-    height: 15%;
+    height: 20%;
     background: linear-gradient(360deg, rgb(248, 0, 0), black);
     color: white;
     text-align: center;
   }
 
   #footer p {
-    padding: 20px;
+    padding: 35px 20px;
   }
 }
