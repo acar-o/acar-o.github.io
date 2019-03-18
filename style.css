@@ -1,0 +1,930 @@
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  font-family: "EB Garamond", serif;
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 751px) {
+
+
+  .picture-1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-image: url(images/back-2.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+  }
+
+
+  .picture-2 {
+    background: rgba(0, 134, 179, 0);
+    background: -moz-linear-gradient(left,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 1) 18%,
+      rgba(0, 134, 179, 1) 82%,
+      rgba(0, 134, 179, 0) 100%);
+    background: -webkit-gradient(left top,
+      right top,
+      color-stop(0%, rgba(0, 134, 179, 0)),
+      color-stop(0%, rgba(0, 134, 179, 0)),
+      color-stop(18%, rgba(0, 134, 179, 1)),
+      color-stop(82%, rgba(0, 134, 179, 1)),
+      color-stop(100%, rgba(0, 134, 179, 0)));
+    background: -webkit-linear-gradient(left,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 1) 18%,
+      rgba(0, 134, 179, 1) 82%,
+      rgba(0, 134, 179, 0) 100%);
+    background: -o-linear-gradient(left,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 1) 18%,
+      rgba(0, 134, 179, 1) 82%,
+      rgba(0, 134, 179, 0) 100%);
+    background: linear-gradient(to right,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 1) 18%,
+      rgba(0, 134, 179, 1) 82%,
+      rgba(0, 134, 179, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0086b3', endColorstr='#0086b3', GradientType=1);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 4;
+  }
+
+  .write {
+    position: absolute;
+    text-align: center;
+    z-index: 5;
+    font-size: 40px;
+  }
+
+  .logo {
+    color: #025175;
+    font-size: 2em;
+    font-weight: 600;
+    background-color: rgb(51, 196, 111);
+    padding: 4px;
+    border-radius: 1px;
+    margin-top: 5px;
+    width: 40%;
+    animation: color-change 20s infinite;
+    -webkit-animation: color-change 20s infinite;
+    -moz-animation: color-change 20s infinite;
+    -o-animation: color-change 20s infinite;
+    -ms-animation: color-change 20s infinite;
+  }
+
+  @-webkit-keyframes color-change {
+    0% {
+      color: rgb(0, 0, 0);
+    }
+
+    50% {
+      color: rgb(255, 255, 255);
+    }
+
+    100% {
+      color: rgb(0, 0, 0);
+    }
+  }
+
+  @-moz-keyframes color-change {
+    0% {
+      color: rgb(0, 0, 0);
+    }
+
+    50% {
+      color: rgb(255, 255, 255);
+    }
+
+    100% {
+      color: rgb(0, 0, 0);
+    }
+  }
+
+  @-ms-keyframes color-change {
+    0% {
+      color: rgb(0, 0, 0);
+    }
+
+    50% {
+      color: rgb(255, 255, 255);
+    }
+
+    100% {
+      color: rgb(0, 0, 0);
+    }
+  }
+
+  @-o-keyframes color-change {
+    0% {
+      color: rgb(0, 0, 0);
+    }
+
+    50% {
+      color: rgb(255, 255, 255);
+    }
+
+    100% {
+      color: rgb(0, 0, 0);
+    }
+  }
+
+  @keyframes color-change {
+    0% {
+      color: rgb(0, 0, 0);
+    }
+
+    50% {
+      color: rgb(255, 255, 255);
+    }
+
+    100% {
+      color: rgb(0, 0, 0);
+    }
+  }
+
+  .logo-div {
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+  }
+
+  .writing {
+    top: 93px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    width: 100%;
+    height: 20%;
+  }
+
+  .hello {
+    top: 48%;
+    margin: 0 auto;
+    color: beige;
+    font-size: 24px;
+    width: 100%;
+    font-family: "EB Garamond", serif;
+    font-family: "Handlee", cursive;
+  }
+
+  .foto1 {
+    width: 45px;
+    height: 60px;
+    border-radius: 15%;
+    margin-top: 4vh;
+
+  }
+
+  .bottom-menu {
+    position: absolute;
+    top: 67%;
+    z-index: 7;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+  }
+
+  .menu {
+    height: 170px;
+    width: 220px;
+    transition: 650ms;
+    margin: 15px;
+
+    -webkit-box-shadow: 7px 7px 9px 0px rgb(19, 56, 33);
+    -moz-box-shadow: 7px 7px 9px 0px rgb(19, 56, 33);
+    box-shadow: 7px 7px 9px 0px rgb(19, 56, 33);
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+  }
+
+  .menu-link {
+    text-decoration: none;
+  }
+
+  .menu:hover {
+    font-weight: large;
+    box-shadow: none;
+    transition: 700ms;
+    position: relative;
+    top: 1px;
+    color: black;
+    opacity: 0.9;
+  }
+
+  .menu-pic {
+    width: 100%;
+    height: 70%;
+    position: relative;
+    left: 0;
+    border-radius: 3px 3px 0 0;
+    opacity: 0.7;
+  }
+
+  .menu-pic:hover {
+    opacity: 1;
+    transition: 700ms;
+  }
+
+  .menu p {
+    margin-top: -7px;
+    font-size: 27px;
+    background-color: rgb(51, 196, 111);
+    height: 51px;
+    border-radius: 0 0 3px 3px;
+  }
+
+  .code {
+    color: rgb(51, 196, 111);
+  }
+
+  /*_____________________________second page_______________________________________________________________
+_________________________________________________________________________________________________________*/
+  .ana {
+    width: 100%;
+    height: 100%;
+  }
+
+  #secondPage {
+
+    background: url(images/back-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+  }
+
+  .yavru {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+  }
+
+  .outerContainer {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    z-index: 2;
+
+
+  }
+
+  .hr {
+    margin: 1% 3%;
+  }
+
+  .secondPage h1 {
+
+    color: rgba(0, 134, 179, 1);
+    text-align: center;
+  }
+
+  .Container {
+    width: 280px;
+    height: 250px;
+    background-color: rgba(0, 134, 179, 1);
+    margin: 10px;
+    border-radius: 4px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(158, 158, 158, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(158, 158, 158, 1);
+    box-shadow: 10px 10px 5px 0px rgba(158, 158, 158, 1);
+
+  }
+
+  .Container h2 {
+    text-align: center;
+    padding: 4% 0;
+    background-color: rgb(51, 196, 111);
+    height: 10%;
+    color: rgba(0, 134, 179, 1);
+    margin: 0;
+    border-radius: 3px 3px 0 0;
+    font-size: x-large;
+  }
+
+  .box {
+    background-color: #CCD5D9;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    width: 140px;
+    height: 30px;
+    margin: 15px auto;
+
+  }
+
+  .text {
+    padding: 5px 30px;
+    text-align: center;
+  }
+
+  .toolsHeader {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    height: 10%;
+    padding-top: 3%;
+
+  }
+
+
+  .tools {
+    width: 50%;
+    height: 7%;
+    background-color: rgb(245, 245, 245, 0.5);
+    margin: 15px auto;
+    padding: 3px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 3px;
+    color: black;
+    text-align: center;
+    border-left: solid 2px rgb(51, 196, 111);
+    border-bottom: solid 2px rgba(0, 134, 179, 1);
+  }
+
+  /*__________________________________third page______________________________________________________
+  _____________________________________________________________________________________________________
+  _____________________________________________________________________________________________________*/
+  #thirdPage {
+    width: 100%;
+    height: 100%;
+
+
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+    font-size: xx-large;
+    font-weight: 900;
+
+
+  }
+
+  .image {
+
+    margin: 2% auto;
+    width: 500px;
+    height: 400px;
+    background-image: url(images/construction.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+  }
+
+  #top {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+  }
+
+  /*fourth page starts here_________________________________*/
+  #about {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(51, 196, 111);
+    text-align: center;
+    
+  }
+  #about p {
+    padding: 10px;
+  }
+
+  #contact {
+    width: 100%;
+    height: 29%;
+    background-color: rgba(0, 134, 179, 1);
+    text-align: center;
+   
+
+  }
+
+  .fab {
+    font-size: 50px;
+    margin: 10px;
+
+  }
+
+  .fas {
+    font-size: 50px;
+    margin: 10px;
+  }
+  #contact a {
+    color: black;
+    transition: 600ms;
+  }
+  #contact a:hover {
+    color: white;
+    transition: 600ms;
+  }
+
+  #footer {
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(360deg, rgb(248, 0, 0), black);
+    color: white;
+    text-align: center;
+  }
+
+  #footer p {
+    padding: 20px;
+  }
+
+}
+
+/*____________________________________________________________________________________________________________________________________*/
+@media screen and (max-width: 751px) {
+
+  .picture-1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-image: url(images/back-2.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+  }
+
+  .picture-2 {
+    background: rgba(0, 134, 179, 0);
+    background: -moz-linear-gradient(left,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 1) 18%,
+      rgba(0, 134, 179, 1) 82%,
+      rgba(0, 134, 179, 0) 100%);
+    background: -webkit-gradient(left top,
+      right top,
+      color-stop(0%, rgba(0, 134, 179, 0)),
+      color-stop(0%, rgba(0, 134, 179, 0)),
+      color-stop(18%, rgba(0, 134, 179, 1)),
+      color-stop(82%, rgba(0, 134, 179, 1)),
+      color-stop(100%, rgba(0, 134, 179, 0)));
+    background: -webkit-linear-gradient(left,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 1) 18%,
+      rgba(0, 134, 179, 1) 82%,
+      rgba(0, 134, 179, 0) 100%);
+    background: -o-linear-gradient(left,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 1) 18%,
+      rgba(0, 134, 179, 1) 82%,
+      rgba(0, 134, 179, 0) 100%);
+    background: -ms-linear-gradient(left,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 1) 18%,
+      rgba(0, 134, 179, 1) 82%,
+      rgba(0, 134, 179, 0) 100%);
+    background: linear-gradient(to right,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 0) 0%,
+      rgba(0, 134, 179, 1) 18%,
+      rgba(0, 134, 179, 1) 82%,
+      rgba(0, 134, 179, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0086b3', endColorstr='#0086b3', GradientType=1);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 4;
+  }
+
+  .write {
+    position: absolute;
+    text-align: center;
+    z-index: 5;
+    font-size: 40px;
+  }
+
+  .logo {
+    color: #025175;
+    font-size: 20px;
+    ;
+    font-weight: 600;
+    background-color: rgb(51, 196, 111);
+    padding: 4px;
+    border-radius: 2px;
+    margin-top: 5px;
+    width: 50%;
+
+    animation: color-change 20s infinite;
+    -webkit-animation: color-change 20s infinite;
+    -moz-animation: color-change 20s infinite;
+    -o-animation: color-change 20s infinite;
+    -ms-animation: color-change 20s infinite;
+  }
+
+  @-webkit-keyframes color-change {
+    0% {
+      color: rgb(0, 0, 0);
+    }
+
+    50% {
+      color: rgb(255, 255, 255);
+    }
+
+    100% {
+      color: rgb(0, 0, 0);
+    }
+  }
+
+  @-moz-keyframes color-change {
+    0% {
+      color: rgb(0, 0, 0);
+    }
+
+    50% {
+      color: rgb(255, 255, 255);
+    }
+
+    100% {
+      color: rgb(0, 0, 0);
+    }
+  }
+
+  @-ms-keyframes color-change {
+    0% {
+      color: rgb(0, 0, 0);
+    }
+
+    50% {
+      color: rgb(255, 255, 255);
+    }
+
+    100% {
+      color: rgb(0, 0, 0);
+    }
+  }
+
+  @-o-keyframes color-change {
+    0% {
+      color: rgb(0, 0, 0);
+    }
+
+    50% {
+      color: rgb(255, 255, 255);
+    }
+
+    100% {
+      color: rgb(0, 0, 0);
+    }
+  }
+
+  @keyframes color-change {
+    0% {
+      color: rgb(0, 0, 0);
+    }
+
+    50% {
+      color: rgb(255, 255, 255);
+    }
+
+    100% {
+      color: rgb(0, 0, 0);
+    }
+  }
+
+  .logo-div {
+    display: flex;
+    justify-content: center;
+    height: 12%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+  }
+
+  .writing {
+    top: 12vh;
+    left: 15vw;
+
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    width: 70%;
+    height: 20%;
+
+  }
+
+  .hello {
+    top: 52vh;
+    margin: 0 auto;
+    color: beige;
+    font-size: 25px;
+    width: 100%;
+    font-family: "EB Garamond", serif;
+    font-family: "Handlee", cursive;
+  }
+
+  .bottom-menu {
+    position: absolute;
+    z-index: 7;
+    width: 100%;
+    height: 3vh;
+    top: 76%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+
+  .menu {
+    height: 70px;
+    transition: 650ms;
+    margin: 2vw;
+    width: 80px;
+    -webkit-box-shadow: 7px 7px 9px 0px rgb(19, 56, 33);
+    -moz-box-shadow: 7px 7px 9px 0px rgb(19, 56, 33);
+    box-shadow: 7px 7px 9px 0px rgb(19, 56, 33);
+    text-align: center;
+    font-size: 12px;
+
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+
+  }
+
+  .menu-link {
+    text-decoration: none;
+    height: 3vh;
+  }
+
+  .menu:hover {
+    font-weight: large;
+    box-shadow: none;
+    transition: 700ms;
+    position: relative;
+    top: 1px;
+    color: black;
+  }
+
+  .menu-pic {
+    width: 100%;
+    height: 70%;
+    position: relative;
+    left: 0;
+    border-radius: 3px 3px 0 0;
+
+  }
+
+  .menu-pic:hover {
+    opacity: 1;
+    transition: 700ms;
+  }
+
+  .menu p {
+    margin-top: -4px;
+    font-size: 15px;
+    background-color: rgb(51, 196, 111);
+    height: 25px;
+    border-radius: 0 0 3px 3px;
+    font-weight: 600;
+  }
+
+  .foto1 {
+    width: 42px;
+    height: 56px;
+    border-radius: 35%;
+    margin-top: 9vh;
+
+  }
+
+  .code {
+    color: rgb(51, 196, 111);
+  }
+
+  /*_____________________________________second page___________________________________________________*/
+
+
+  #secondPage {
+
+    background: url(images/back-2.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+    opacity: 0.4;
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    z-index: 0;
+  }
+
+  .yavru {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+  }
+
+  .outerContainer {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    z-index: 2;
+
+
+  }
+
+  .hr {
+    margin: 3% 3% -6% 3%;
+    border-top: 1px solid black;
+  }
+
+  .secondPage h1 {
+
+    color: rgba(0, 134, 179, 1);
+    text-align: center;
+
+  }
+
+  .Container {
+    width: 280px;
+    height: 250px;
+    background-color: rgba(0, 134, 179, 1);
+    margin: 10px;
+    border-radius: 4px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(158, 158, 158, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(158, 158, 158, 1);
+    box-shadow: 10px 10px 5px 0px rgb(99, 88, 88);
+
+  }
+
+  .Container h2 {
+    text-align: center;
+    padding: 4% 0;
+    background-color: rgb(51, 196, 111);
+    height: 10%;
+    color: rgba(0, 134, 179, 1);
+    margin: 0;
+    border-radius: 3px 3px 0 0;
+    font-size: x-large;
+  }
+
+  .box {
+    background-color: #CCD5D9;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    width: 140px;
+    height: 30px;
+    margin: 15px auto;
+
+  }
+
+  .text {
+    padding: 5px 30px;
+    text-align: center;
+  }
+
+  .toolsHeader {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    height: 10%;
+    padding-top: 3%;
+
+  }
+
+
+  .tools {
+    width: 50%;
+    height: 7%;
+    background-color: rgb(245, 245, 245, 0.5);
+    margin: 15px auto;
+    padding: 3px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 3px;
+    color: black;
+    text-align: center;
+    border-left: solid 2px rgb(51, 196, 111);
+    border-bottom: solid 2px rgba(0, 134, 179, 1);
+  }
+
+
+  /* _________________________________________________third page_________________________________________________*/
+
+
+  #thirdPage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 140%;
+    font-size: xx-large;
+    font-weight: 900;
+    opacity: 0.9;
+    z-index: 0;
+
+  }
+
+  .main {
+    background-image: url(images/caution.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70%;
+  }
+
+  .image {
+
+    margin: 0% auto;
+    width: 100%;
+    height: 50%;
+    background-image: url(images/construction.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 25%;
+
+  }
+
+  #under {
+    background-color: yellow;
+  }
+
+  #top {
+    position: fixed;
+    left: 5px;
+    bottom: 23px;;
+  }
+
+  /*fourth page starts here_________________________________*/
+  #about {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(51, 196, 111);
+    text-align: center;
+    
+    
+    
+    
+  }
+  #about p {
+    padding: 10px;
+  }
+
+  #contact {
+    width: 100%;
+    height: 29%;
+    background-color: rgba(0, 134, 179, 1);
+    text-align: center;
+   
+
+  }
+
+  .fab {
+    font-size: 50px;
+    margin: 10px;
+
+  }
+
+  .fas {
+    font-size: 50px;
+    margin: 10px;
+  }
+  #contact a {
+    color: black;
+    transition: 600ms;
+  }
+  #contact a:hover {
+    color: white;
+    transition: 600ms;
+  }
+
+  #footer {
+    width: 100%;
+    height: 15%;
+    background: linear-gradient(360deg, rgb(248, 0, 0), black);
+    color: white;
+    text-align: center;
+  }
+
+  #footer p {
+    padding: 20px;
+  }
+}
