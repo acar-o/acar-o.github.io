@@ -165,10 +165,10 @@ body {
 
   .writing {
     top: 93px;
-    margin: 0 auto;
+    margin: 0 10%;
     color: rgb(255, 255, 255);
     font-size: 40px;
-    width: 100%;
+    width: 80%;
     height: 20%;
   }
 
